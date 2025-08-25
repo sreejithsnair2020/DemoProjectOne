@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="testscript.AdminUsersTest">
+        <methods>
+          <include name="testAddAdmin"/>
+          <include name="browserIntializaztion"/>
+          <include name="browserQuit"/>
+        </methods>
+      </class> <!-- testscript.AdminUsersTest -->
+      <class name="testscript.ManageNewsTest">
+        <methods>
+          <include name="manageNews"/>
+          <include name="browserIntializaztion"/>
+          <include name="browserQuit"/>
+        </methods>
+      </class> <!-- testscript.ManageNewsTest -->
+      <class name="testscript.LoginTest">
+        <methods>
+          <include name="loginInvalidCrendentialsUser"/>
+          <include name="loginInvalidCrendentialsBoth"/>
+          <include name="browserIntializaztion"/>
+          <include name="loginInvalidCrendentialsPass"/>
+          <include name="browserQuit"/>
+          <include name="loginValidCrendentials"/>
+        </methods>
+      </class> <!-- testscript.LoginTest -->
+      <class name="testscript.Login">
+        <methods>
+          <include name="loginWithNoCredentials"/>
+          <include name="usernameIncorrectPasswordCorrect"/>
+          <include name="browserIntializaztion"/>
+          <include name="loginBothCorrect"/>
+          <include name="browserQuit"/>
+          <include name="usernameIncorrectPasswordInCorrect"/>
+          <include name="usernameCorrectPasswordIncorrect"/>
+        </methods>
+      </class> <!-- testscript.Login -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

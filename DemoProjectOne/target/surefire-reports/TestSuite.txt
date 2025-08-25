@@ -1,0 +1,103 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 33, Failures: 22, Errors: 0, Skipped: 11, Time elapsed: 0.739 s <<< FAILURE! - in TestSuite
+testscript.AdminUsersTest.browserIntializaztion  Time elapsed: 0.424 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browser' is required by BeforeMethod on method browserIntializaztion but has not been marked @Optional or defined
+in C:\Users\aswat\eclipse-workspace\DemoProjectOne\testng.xml
+
+testscript.AdminUsersTest.browserQuit[[TestResult name=testAddAdmin status=SKIP method=AdminUsersTest.testAddAdmin()[pri:1, instance:testscript.AdminUsersTest@28eaa59a] output={null}]](0)  Time elapsed: 0.006 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null
+
+testscript.ManageNewsTest.browserIntializaztion  Time elapsed: 0.008 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browser' is required by BeforeMethod on method browserIntializaztion but has not been marked @Optional or defined
+in C:\Users\aswat\eclipse-workspace\DemoProjectOne\testng.xml
+
+testscript.ManageNewsTest.browserQuit[[TestResult name=manageNews status=SKIP method=ManageNewsTest.manageNews()[pri:0, instance:testscript.ManageNewsTest@441772e] output={null}]](0)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null
+
+testscript.Login.browserIntializaztion  Time elapsed: 0.002 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browser' is required by BeforeMethod on method browserIntializaztion but has not been marked @Optional or defined
+in C:\Users\aswat\eclipse-workspace\DemoProjectOne\testng.xml
+
+testscript.Login.browserQuit[[TestResult name=loginBothCorrect status=SKIP method=Login.loginBothCorrect()[pri:0, instance:testscript.Login@7334aada] output={null}]](0)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null
+
+testscript.Login.browserIntializaztion  Time elapsed: 0.002 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browser' is required by BeforeMethod on method browserIntializaztion but has not been marked @Optional or defined
+in C:\Users\aswat\eclipse-workspace\DemoProjectOne\testng.xml
+
+testscript.Login.browserQuit[[TestResult name=loginWithNoCredentials status=SKIP method=Login.loginWithNoCredentials()[pri:0, instance:testscript.Login@7334aada] output={null}]](0)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null
+
+testscript.Login.browserIntializaztion  Time elapsed: 0.003 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browser' is required by BeforeMethod on method browserIntializaztion but has not been marked @Optional or defined
+in C:\Users\aswat\eclipse-workspace\DemoProjectOne\testng.xml
+
+testscript.Login.browserQuit[[TestResult name=usernameCorrectPasswordIncorrect status=SKIP method=Login.usernameCorrectPasswordIncorrect()[pri:0, instance:testscript.Login@7334aada] output={null}]](0)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null
+
+testscript.Login.browserIntializaztion  Time elapsed: 0.003 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browser' is required by BeforeMethod on method browserIntializaztion but has not been marked @Optional or defined
+in C:\Users\aswat\eclipse-workspace\DemoProjectOne\testng.xml
+
+testscript.Login.browserQuit[[TestResult name=usernameIncorrectPasswordCorrect status=SKIP method=Login.usernameIncorrectPasswordCorrect()[pri:0, instance:testscript.Login@7334aada] output={null}]](0)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null
+
+testscript.Login.browserIntializaztion  Time elapsed: 0.003 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browser' is required by BeforeMethod on method browserIntializaztion but has not been marked @Optional or defined
+in C:\Users\aswat\eclipse-workspace\DemoProjectOne\testng.xml
+
+testscript.Login.browserQuit[[TestResult name=usernameIncorrectPasswordInCorrect status=SKIP method=Login.usernameIncorrectPasswordInCorrect()[pri:0, instance:testscript.Login@7334aada] output={null}]](0)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null
+
+testscript.LoginTest.browserIntializaztion  Time elapsed: 0.004 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browser' is required by BeforeMethod on method browserIntializaztion but has not been marked @Optional or defined
+in C:\Users\aswat\eclipse-workspace\DemoProjectOne\testng.xml
+
+testscript.LoginTest.browserQuit[[TestResult name=loginInvalidCrendentialsBoth status=SKIP method=LoginTest.loginInvalidCrendentialsBoth()[pri:0, instance:testscript.LoginTest@1d9b7cce] output={null}]](0)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null
+
+testscript.LoginTest.browserIntializaztion  Time elapsed: 0.002 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browser' is required by BeforeMethod on method browserIntializaztion but has not been marked @Optional or defined
+in C:\Users\aswat\eclipse-workspace\DemoProjectOne\testng.xml
+
+testscript.LoginTest.browserQuit[[TestResult name=loginInvalidCrendentialsPass status=SKIP method=LoginTest.loginInvalidCrendentialsPass()[pri:0, instance:testscript.LoginTest@1d9b7cce] output={null}]](0)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null
+
+testscript.LoginTest.browserIntializaztion  Time elapsed: 0.002 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browser' is required by BeforeMethod on method browserIntializaztion but has not been marked @Optional or defined
+in C:\Users\aswat\eclipse-workspace\DemoProjectOne\testng.xml
+
+testscript.LoginTest.browserQuit[[TestResult name=loginInvalidCrendentialsUser status=SKIP method=LoginTest.loginInvalidCrendentialsUser()[pri:0, instance:testscript.LoginTest@1d9b7cce] output={null}]](0)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null
+
+testscript.LoginTest.browserIntializaztion  Time elapsed: 0.003 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browser' is required by BeforeMethod on method browserIntializaztion but has not been marked @Optional or defined
+in C:\Users\aswat\eclipse-workspace\DemoProjectOne\testng.xml
+
+testscript.LoginTest.browserQuit[[TestResult name=loginValidCrendentials status=SKIP method=LoginTest.loginValidCrendentials()[pri:0, instance:testscript.LoginTest@1d9b7cce] output={null}]](0)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null
+
